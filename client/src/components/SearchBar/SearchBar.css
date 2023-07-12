@@ -1,0 +1,56 @@
+.nav {
+    /* display: flex;
+    flex-direction: row; */
+    text-align: center;
+    background-color:rgb(117, 99, 147);
+    color: white;
+    border-color:rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.vid {
+    font-weight: 1000;
+    font-size: medium;
+    color: black;
+}
+
+.box {
+    background-color:rgb(114, 139, 184);
+    border-radius: 10px;
+    font-weight: 1000;
+    font-size: medium;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.search {
+    text-align: center;
+    background-color:rgb(117, 99, 147);
+    color: white;
+    border-color:rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.firm {
+    /* display: flex; */
+    /* flex-direction: flex-end; */
+    /* border-radius: 40px;
+    padding-top: -10px; */
+}
+
+.button {
+    background-color:rgb(42, 79, 142);
+    border-radius: 10px;
+    font-weight: 1000;
+    font-size: medium;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.button:hover {
+    background-color:rgb(81, 116, 175);
+}

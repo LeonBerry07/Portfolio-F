@@ -1,0 +1,43 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    background-color:rgb(57, 35, 95);
+    color: white;
+    border-color:rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.name {
+    margin-top: 18px;
+}
+
+.input {
+    background-color:rgb(114, 139, 184);
+    border-radius: 10px;
+    font-weight: 1000;
+    font-size: medium;
+    /* margin-top: 10px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cvid {
+    background-color:rgb(42, 79, 142);
+    border-radius: 10px;
+    font-weight: 1000;
+    font-size: medium;
+    margin-top: 43px;
+    margin-bottom: 19px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cvid:hover {
+    background-color: rgb(63, 19, 128);
+}

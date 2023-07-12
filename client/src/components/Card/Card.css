@@ -1,0 +1,38 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(61, 39, 66); 
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 0.7em;
+}
+
+.title {
+    background-color: black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.diets {
+    background-color: rgb(125, 78, 143);
+    color: black;
+}
+
+/* .imgdiv {
+    background-color: bisque;
+} */
+
+.imgh {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    max-width: 400px;
+    max-height: 300px;
+}
