@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import'./LandingPage.css'
 
 const url12 = 'me.jpg';
@@ -12,19 +12,24 @@ class LandingPage extends React.Component{
     render() {
         return(
             <div className="landingpage">
-                
             <body className="body">
+
+
+                
             
-            <header className="header">
-                <div className="nav">
-                <p>About    Skills    Contact</p>
-                </div>
+            <header className="top">
+                <p>About</p>
+                <p>Skils</p>
+                <p>Contact</p>
             </header>
+
+
+
 
             <div className="tim">
                     
             <div className="info">
-            <p className="info1">Bruno Leonel Mendiberry</p>
+            <p>Bruno Leonel Mendiberry</p>
             <p>Full Stack Developer</p>
             </div>
 
@@ -34,12 +39,10 @@ class LandingPage extends React.Component{
 
             </div>
 
-            <section className="info1">About Me</section>
 
-            {/* <p>
-                Background Producción Musical
-            </p> */}
 
+
+            <section className="title">About Me</section>
 
             <div className="about">
 
@@ -61,7 +64,10 @@ class LandingPage extends React.Component{
             </span>
             </div>
 
-            <section className="info1">Skills</section>
+
+
+
+            <section className="title">Skills</section>
             
             <div className="skills">
 
@@ -108,7 +114,13 @@ class LandingPage extends React.Component{
             {/* Adobe AfterEffects, Photoshop */}
             </div>
 
-            <section className="info1">Projects</section>
+
+
+
+
+
+
+            <section className="title">Projects</section>
 
             <div className="boxes">
                 
@@ -117,22 +129,30 @@ class LandingPage extends React.Component{
                 Portfolio   
             </div>
 
-            <div className="box2">
+            <div className="box">
                 Videogames   
             </div>
 
-            <div className="box3">
+            <div className="box">
                 Deal Up!
             </div>
             
             </div>
             
 
-            <button className='home'>
+            {/* <button className='home'>
                 <Link to="/home">Projects</Link>
-            </button>
+            </button> */}
 
-            <section className="info1">Contact</section>
+
+
+
+
+
+
+
+
+            <section className="title">Contact</section>
 
             <p>
                 Correo electrónico
@@ -144,10 +164,23 @@ class LandingPage extends React.Component{
                 https://www.linkedin.com/in/bruno-leonel-a40110260/
             </p>
 
+
+
+
+
+
+
+
             <footer className="foot">
-                <p>About    Skills    Contact</p>
+                <p>About</p>
+                <p>Skills</p>
+                <p>Contact</p>
                 <p>&copy;Bruno Leonel Mendiberry 2023</p>
             </footer>
+
+
+
+
             </body>    
             </div>
         )
