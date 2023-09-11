@@ -2,56 +2,154 @@ import React from "react";
 import { Link } from "react-router-dom";
 import'./LandingPage.css'
 
-// const url = 'https://www.autonomosyemprendedor.es/media/autonomosyemprendedor/images/2023/03/29/2023032917453731776.jpg';
-// const url2 = 'https://media.revistagq.com/photos/645dde361c98f4b147443172/16:9/pass/100%20mejores%20videojuegos%20gq.png';
-const url3 = 'https://evelongames.com/wp-content/uploads/2022/11/Kratos-portada-1536x864.jpg';
-const url4 = 'https://assetsio.reedpopcdn.com/139765141361.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp';
-const url5 = 'https://www.egames.news/__export/1683919323424/sites/debate/img/2023/05/12/spider-man-insomniac-games-sony-1.jpg_554688468.jpg';
-const url6 = 'https://www.mundodeportivo.com/alfabeta/hero/2023/04/hd-wallpaper-the-black-suit-spiderman-spiderman-superheroes-artist-artwork-digital-art-deviantart.jpg?width=1200';
-const url7 = 'https://images7.alphacoders.com/129/1292770.png';
-const url8 = 'https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/10/assassins-creed-2115643.jpg?tf=3840x';
-const url9 = 'https://malditosnerds.com/wp-content/uploads/2022/10/uncharted-portada-750x405jpg-copyjpg.jpg';
-const url10 = 'https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2021/04/The-Last-of-Us-Remake-PS5-1.jpg';
-const url11 = 'https://i.blogs.es/aaa129/1136691/1366_2000.jpeg';
-const url12 = 'https://assetsio.reedpopcdn.com/Batman-Arkham-Knight2.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp';
-const url13 = 'https://cloudfront-us-east-1.images.arcpublishing.com/infobae/EMGRLDPUQRCBJL243GN5HZGNMM.jpg';
-const url14 = 'https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2012/03/153759-fifa-street-golea-reino-unido.jpg?tf=3840x';
-const url15 = 'https://images.pushsquare.com/676898d548e1f/littlebigplanet.large.jpg';
-const url16 = 'https://c4.wallpaperflare.com/wallpaper/601/497/256/video-games-infamous-wallpaper-preview.jpg';
+const url12 = 'me.jpg';
+// const url13 = 'distopya.jpg';
+{/* <img className="bru" src={url13} alt="Food's Lyon"/> */}
+{/* <img className="bru" src={url12} alt="Food's Lyon"/> */}
 
 class LandingPage extends React.Component{
 
     render() {
         return(
             <div className="landingpage">
-                <div>
-                <img className="img" src={url4} alt="Food's Lyon"/>
-                <img className="img" src={url3} alt="Food's Lyon"/>
-                <img className="img" src={url9} alt="Food's Lyon"/>
-                <img className="img" src={url12} alt="Food's Lyon"/>
+                
+            <body className="body">
+            
+            <header className="header">
+                <div className="nav">
+                <p>About    Skills    Contact</p>
                 </div>
-                <div>
-                <img className="img" src={url5} alt="Food's Lyon"/>
-                <img className="img" src={url8} alt="Food's Lyon"/>
-                <img className="img" src={url6} alt="Food's Lyon"/>
-                </div>
-                <button className='home'>
-                <Link to="/home">Home</Link>
-                </button>
-                <div>
-                <img className="img" src={url11} alt="Food's Lyon"/>
-                <img className="img" src={url7} alt="Lyon"/>
-                <img className="img" src={url10} alt="Food's Lyon"/>
-                </div>
-                <div>
-                <img className="img" src={url13} alt="Food's Lyon"/>
-                <img className="img" src={url14} alt="Food's Lyon"/>
-                <img className="img" src={url15} alt="Food's Lyon"/>
-                <img className="img" src={url16} alt="Food's Lyon"/>
-                </div>
+            </header>
+
+            <div className="tim">
+                    
+            <div className="info">
+            <p className="info1">Bruno Leonel Mendiberry</p>
+            <p>Full Stack Developer</p>
+            </div>
+
+            <div className="image"> 
+            <img className="bru" src={url12} alt="Food's Lyon"/>
+            </div>
+
+            </div>
+
+            <section className="info1">About Me</section>
+
+            {/* <p>
+                Background Producción Musical
+            </p> */}
+
+
+            <div className="about">
+
+            <p>
+                Hola, soy Bruno Leonel Mendiberry 👋
+            </p>
+
+            <p className="text">
+                Me desempeño como Desarrollador Fullstack orientado al Back-End, y con conocimientos de edición de fotografía.
+            </p>
+
+            <p>    
+                Soy un amante de la tecnología e informática desde toda la vida, tanto desde el apartado del hardware como el apartado del software.
+            </p>
+
+            <span>
+                Labor en la actualidad
+                Desarrollo proyectos que me permitan crecer como programador, tanto desde el lado técnico como creativo. Dichos proyectos están relacionados a mis gustos personales e ideas que creo hacen falta implementar en la sociedad.
+            </span>
+            </div>
+
+            <section className="info1">Skills</section>
+            
+            <div className="skills">
+
+            <div className="skills1">            
+            <p>
+            Javascript
+            </p>
+
+            <p>
+            React.js
+            </p>
+
+            <p>
+            Node.js
+            </p>
+
+            <p>
+            Express.js
+            </p>
+            </div>
+
+            <div className="skills2">
+            <p>
+            PostgreSQL
+            </p>
+
+            <p>
+            Sequelize
+            </p>
+
+            <p>
+            GIT
+            </p>
+            
+            <p>
+            HTML
+            </p>
+            
+            <p>
+            CSS
+            </p>
+            </div>
+
+            {/* Adobe AfterEffects, Photoshop */}
+            </div>
+
+            <section className="info1">Projects</section>
+
+            <div className="boxes">
+                
+
+            <div className="box">
+                Portfolio   
+            </div>
+
+            <div className="box2">
+                Videogames   
+            </div>
+
+            <div className="box3">
+                Deal Up!
+            </div>
+            
             </div>
             
 
+            <button className='home'>
+                <Link to="/home">Projects</Link>
+            </button>
+
+            <section className="info1">Contact</section>
+
+            <p>
+                Correo electrónico
+                altairconnor12@gmail.com
+            </p>
+
+            <p> 
+                LinkedIn
+                https://www.linkedin.com/in/bruno-leonel-a40110260/
+            </p>
+
+            <footer className="foot">
+                <p>About    Skills    Contact</p>
+                <p>&copy;Bruno Leonel Mendiberry 2023</p>
+            </footer>
+            </body>    
+            </div>
         )
     }
 

@@ -29,7 +29,8 @@ const getVideoGamesById = async(req, res) => {
                     released,
                     image,
                     rating,
-                    genres: genres.map((gen) => {return gen.title}),
+                    // genres: genres.map((gen) => {return gen.title}),
+                    genres,
                     source
                 };
         }

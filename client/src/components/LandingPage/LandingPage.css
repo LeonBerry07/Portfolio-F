@@ -5,9 +5,11 @@
     align-items: center;
     text-align: center;
     /* padding: 50px; */
-    background-color: rgb(165, 165, 165);
+    background-color: rgb(73, 42, 128);
     border-bottom: 1px solid #a54b4b;
-    padding-bottom: 1.7%; 
+    padding-bottom: 1.7%;
+    flex: 1;
+    /* width: 100%; */
 }
 a { 
     text-decoration: none; 
@@ -19,12 +21,40 @@ a:hover {
     color: rgb(99, 19, 43);
 }
 
+
+
+
+/* Perfil */
+
+.tim {
+    text-align: center;
+}
+
+.info {
+    background-color: rgb(116, 162, 162);
+    display: inline-block;
+    /* width: 30%; */
+    margin: auto;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+.image {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+
+
+
 .home {
     background-color:rgb(42, 79, 142);
     border-radius: 10px;
     font-weight: 1000;
     font-size: medium;
-    margin-bottom: -29px;
+    /* margin-bottom: -29px; */
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
@@ -34,22 +64,146 @@ a:hover {
     background-color:rgb(81, 116, 175);
 }
 
-.img {
-    border-top-left-radius: 10px;
-    align-items: center;
-    /* image-resolution: 200px; */
-    /* background-size: 0px 600px; */
-    width: auto;
-    height: auto;
-    padding-top: 33px;
-    padding-left: 10px;
+
+
+
+/* Projects */
+
+.boxes {
+    text-align: center;
 }
 
-.img2 {
-    border-radius: 10px;
-    align-items: center;
-    /* image-resolution: 200px; */
-    /* background-size: 0px 600px; */
-    width: 25.6%;
-    height: 50%; 
+.box {
+    background-color: aqua;
+    display: inline-block;
+    width: 30%; /* Ajusta el ancho según tus necesidades */
+    margin: 10px; /* Espaciado entre los divs */
+    border: 1px solid #000; /* Borde para ilustrar */
+    box-sizing: border-box;
 }
+
+.box2 {
+    background-color: aqua;
+    display: inline-block;
+    width: 30%; /* Ajusta el ancho según tus necesidades */
+    margin: 10px; /* Espaciado entre los divs */
+    border: 1px solid #000; /* Borde para ilustrar */
+    box-sizing: border-box;
+}
+.box3 {
+    background-color: aqua;
+    display: inline-block;
+    width: 30%; /* Ajusta el ancho según tus necesidades */
+    margin: 10px; /* Espaciado entre los divs */
+    border: 1px solid #000; /* Borde para ilustrar */
+    box-sizing: border-box;
+}
+
+
+
+
+/* Skills */
+
+.skills {
+    text-align: center;
+}
+
+.skills1 {
+    background-color: aqua;
+    display: inline-block;
+    width: 30%; /* Ajusta el ancho según tus necesidades */
+    margin: 10px; /* Espaciado entre los divs */
+    border: 1px solid #000; /* Borde para ilustrar */
+    box-sizing: border-box;
+}
+
+.skills2 {
+    background-color: aqua;
+    display: inline-block;
+    width: 30%; /* Ajusta el ancho según tus necesidades */
+    margin: 10px; /* Espaciado entre los divs */
+    border: 1px solid #000; /* Borde para ilustrar */
+    box-sizing: border-box;
+}
+
+
+
+
+.bru {
+    border-radius: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 249px;
+}
+
+.about {
+    background-color: azure;
+}
+
+.main {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.info1 {
+    font-size: large;
+    font-weight: 2000;
+    color: aqua;
+}
+
+.body {
+    min-height: 100vh;
+    /* min-height: 100%; */
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* flex-direction: column; */
+    font-size: medium;
+}
+
+.header {
+    background-color: antiquewhite;
+    font-size: medium;
+    font-weight: 1000;
+    width: 100%;
+}
+
+.headone {
+    font-size: large;
+    font-weight: 2000;
+}
+
+.skills {
+    background-color: aquamarine;
+    width: 20%;
+}
+
+.text {
+    text-align: center;
+}
+
+.foot {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    /* height: 100px; */
+    
+    /* bottom: 0; */
+    /* position: absolute; */
+}
+
+/* .foot a {
+    color: #fff;
+    text-decoration: none;
+} */
+
+/* .foot a:hover {
+    text-decoration: underline;
+} */
