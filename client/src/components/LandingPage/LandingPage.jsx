@@ -19,7 +19,7 @@ class LandingPage extends React.Component{
             
             <header className="top">
                 <p>About</p>
-                <p>Skils</p>
+                <p>Skills</p>
                 <p>Contact</p>
             </header>
 
@@ -58,10 +58,9 @@ class LandingPage extends React.Component{
                 Soy un amante de la tecnología e informática desde toda la vida, tanto desde el apartado del hardware como el apartado del software.
             </p>
 
-            <span>
-                Labor en la actualidad
-                Desarrollo proyectos que me permitan crecer como programador, tanto desde el lado técnico como creativo. Dichos proyectos están relacionados a mis gustos personales e ideas que creo hacen falta implementar en la sociedad.
-            </span>
+            <p>
+                Actualemente desarrollo proyectos que me permitan crecer como programador, tanto desde el lado técnico como creativo. Dichos proyectos están relacionados a mis gustos personales e ideas que creo hacen falta implementar en la sociedad.
+            </p>
             </div>
 
 
@@ -154,8 +153,9 @@ class LandingPage extends React.Component{
 
             <section className="title">Contact</section>
 
+            <div className="contact">
             <p>
-                Correo electrónico
+                E-Mail
                 altairconnor12@gmail.com
             </p>
 
@@ -163,6 +163,7 @@ class LandingPage extends React.Component{
                 LinkedIn
                 https://www.linkedin.com/in/bruno-leonel-a40110260/
             </p>
+            </div>
 
 
 

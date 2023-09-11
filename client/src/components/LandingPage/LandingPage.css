@@ -1,15 +1,13 @@
 .landingpage{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 50px;
     background-color: rgb(63, 44, 96);
     border-bottom: 1px solid #a54b4b;
-    padding-bottom: 1.7%;
     flex: 1;
-    width: 94%;
+    width: 100%;
 }
 
 a { 
@@ -31,34 +29,14 @@ a:hover {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding-top: 0%;
-    margin-bottom: 0%;
-    width: 100%;
+    padding: 10px 0;
 }
 
 .foot {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding-top: 0%;
-    margin-bottom: 0%;
-    width: 100%;
-}
-
-
-
-
-/* short view */
-
-.bru {
-    border-radius: 300px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    height: 249px;
-}
-
-.about {
-    background-color: azure;
+    padding: 10px 0;
 }
 
 
@@ -68,15 +46,19 @@ a:hover {
 
 .tim {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .info {
-    background-color: rgb(116, 162, 162);
+    background-color: #333;
+    color: #fff;
     display: inline-block;
-    /* width: 30%; */
-    margin: auto;
+    width: 20%;
     border: 1px solid #000;
     box-sizing: border-box;
+    border-radius: 27px;
 }
 
 .image {
@@ -86,22 +68,60 @@ a:hover {
     box-sizing: border-box;
 }
 
-
-
-
-.home {
-    background-color:rgb(42, 79, 142);
-    border-radius: 10px;
-    font-weight: 1000;
-    font-size: medium;
-    /* margin-bottom: -29px; */
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+.bru {
+    border-radius: 300px;
+    padding: 70px;
+    height: 249px;
 }
-.home:hover {
-    background-color:rgb(81, 116, 175);
+
+
+
+
+/* About Me */
+
+.about {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    padding: 14px;
+    width: 50%;
+    border: 1px solid #000;
+    border-radius: 27px;
+}
+
+
+
+
+/* Skills */
+
+.skills {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills1 {
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    width: 20%;
+    margin: 10px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    border-radius: 27px;
+}
+
+.skills2 {
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    width: 20%;
+    margin: 10px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    border-radius: 27px;
 }
 
 
@@ -114,56 +134,52 @@ a:hover {
 }
 
 .box {
-    background-color: aqua;
+    background-color: #333;
+    color: #fff;
     display: inline-block;
-    width: 30%; /* Ajusta el ancho según tus necesidades */
-    margin: 10px; /* Espaciado entre los divs */
-    border: 1px solid #000; /* Borde para ilustrar */
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #000;
     box-sizing: border-box;
+    border-radius: 27px;
 }
 
 .box2 {
-    background-color: aqua;
+    background-color: #333;
+    color: #fff;
     display: inline-block;
-    width: 30%; /* Ajusta el ancho según tus necesidades */
-    margin: 10px; /* Espaciado entre los divs */
-    border: 1px solid #000; /* Borde para ilustrar */
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #000;
     box-sizing: border-box;
+    border-radius: 27px;
 }
 .box3 {
-    background-color: aqua;
+    background-color: #333;
+    color: #fff;
     display: inline-block;
-    width: 30%; /* Ajusta el ancho según tus necesidades */
-    margin: 10px; /* Espaciado entre los divs */
-    border: 1px solid #000; /* Borde para ilustrar */
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #000;
     box-sizing: border-box;
+    border-radius: 27px;
 }
 
 
 
+/* Contact */
 
-/* Skills */
-
-.skills {
+.contact {
+    background-color: #333;
+    color: #fff;
     text-align: center;
-}
-
-.skills1 {
-    background-color: rgb(148, 184, 184);
-    display: inline-block;
-    width: 30%; /* Ajusta el ancho según tus necesidades */
-    margin: 10px; /* Espaciado entre los divs */
-    border: 1px solid #000; /* Borde para ilustrar */
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    padding: 5px;
+    border: 1px solid #000;
     box-sizing: border-box;
-}
-
-.skills2 {
-    background-color: rgb(159, 189, 189);
-    display: inline-block;
-    width: 30%; /* Ajusta el ancho según tus necesidades */
-    margin: 10px; /* Espaciado entre los divs */
-    border: 1px solid #000; /* Borde para ilustrar */
-    box-sizing: border-box;
+    border-radius: 27px;
 }
 
 
@@ -175,16 +191,6 @@ a:hover {
     font-size: large;
     font-weight: 2000;
     color: aqua;
-}
-
-.body {
-    min-height: 100vh;
-    /* min-height: 100%; */
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    /* flex-direction: column; */
-    font-size: medium;
+    padding-bottom: 30px;
+    padding-top: 90px;
 }
