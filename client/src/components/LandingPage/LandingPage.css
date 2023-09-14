@@ -84,6 +84,7 @@ a:hover {
     color: #fff;
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 30px;
     padding: 14px;
     width: 50%;
     border: 1px solid #000;
@@ -180,6 +181,32 @@ a:hover {
     border: 1px solid #000;
     box-sizing: border-box;
     border-radius: 27px;
+}
+
+.email {
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    border-radius: 27px;
+}
+.email { 
+    text-decoration: none; 
+    color: rgb(182, 179, 200);
+    cursor: pointer;
+}
+
+.email:hover {
+    color: rgb(99, 19, 43);
+}
+
+.lin {
+    border-radius: 300px;
+    padding: 70px;
+    height: 100px;
 }
 
 
