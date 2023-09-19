@@ -193,16 +193,20 @@ class LandingPage extends React.Component{
                 
 
             <div className="box">
-                Lyon Berry (En construcción) 
-            </div>
-
-            <div className="box">
-                Videogames   
+                <button className='box'>
+                <RouterLink to='' target="_blank">Lyon Berry (En construcción)</RouterLink>
+                </button>
             </div>
 
             <div className="box">
                 <button className='box'>
-                <RouterLink to='https://start-bussines.vercel.app/'>Deal Up!</RouterLink>
+                <RouterLink to='' target="_blank">Videogames</RouterLink>
+                </button>
+            </div>
+
+            <div className="box">
+                <button className='box'>
+                <RouterLink to='https://start-bussines.vercel.app/' target="_blank">Deal Up!</RouterLink>
                 </button>
             </div>
             

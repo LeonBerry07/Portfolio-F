@@ -8,68 +8,73 @@ import { useEffect, useState } from 'react';
 
 function App() {
 
-  const [games, setGames] = useState([]);
+//   const [games, setGames] = useState([]);
 
-  const onSearch = (name) => {
+//   const onSearch = (name) => {
 
-      fetch(`http://localhost:3001/gamesbyname?name=${name}`)
-      .then((response) => response.json())
-      .then((data) => {
-        if(data.length > 0) {
-          setGames(() => [...data]);
-        } else {
-          setGames(() => []);
-          alert('No hay juegos con ese nombre');
-        }
-      })
- }
+//       fetch(`http://localhost:3001/gamesbyname?name=${name}`)
+//       .then((response) => response.json())
+//       .then((data) => {
+//         if(data.length > 0) {
+//           setGames(() => [...data]);
+//         } else {
+//           setGames(() => []);
+//           alert('No hay juegos con ese nombre');
+//         }
+//       })
+//  }
 
- const [genres, setGenres] = useState([]);
+//  const [genres, setGenres] = useState([]);
 
-  const getGenres = () => {
+//   const getGenres = () => {
 
-      fetch(`http://localhost:3001/genres`)
-      .then((response) => response.json())
-      .then((data) => {
-        if(data.length > 0) {
-          setGenres(() => [...data]);
-        } else {
-          setGenres(() => []);
-          alert('No hay juegos con ese nombre');
-        }
-      })
- }
+//       fetch(`http://localhost:3001/genres`)
+//       .then((response) => response.json())
+//       .then((data) => {
+//         if(data.length > 0) {
+//           setGenres(() => [...data]);
+//         } else {
+//           setGenres(() => []);
+//           alert('No hay juegos con ese nombre');
+//         }
+//       })
+//  }
 
- const [platforms, setPlatforms] = useState([]);
+//  const [platforms, setPlatforms] = useState([]);
 
-  const getPlatforms = () => {
+//   const getPlatforms = () => {
 
-      fetch(`http://localhost:3001/platforms`)
-      .then((response) => response.json())
-      .then((data) => {
-        if(data.length > 0) {
-          setPlatforms(() => [...data]);
-        } else {
-          setGenres(() => []);
-          alert('No hay juegos con ese nombre');
-        }
-      })
- }
+//       fetch(`http://localhost:3001/platforms`)
+//       .then((response) => response.json())
+//       .then((data) => {
+//         if(data.length > 0) {
+//           setPlatforms(() => [...data]);
+//         } else {
+//           setGenres(() => []);
+//           alert('No hay juegos con ese nombre');
+//         }
+//       })
+//  }
 
- useEffect(() => {
-  onSearch('');
-  getGenres();
-  getPlatforms();
-}, []);
+//  useEffect(() => {
+//   onSearch('');
+//   getGenres();
+//   getPlatforms();
+// }, []);
 
   return (
     <div className="App">
       <div>
         <Routes>
           <Route path="/" element={<LandingPage/>}/>
-          <Route path="/home" element={<Cards games={games} onSearch={onSearch} genres={genres} getGenres={getGenres}/>}/>
+          <Route path="/home" element={<Cards 
+          // games={games} onSearch={onSearch} genres={genres} getGenres={getGenres}
+          />}/>
           <Route path="/detail/:id" element={<Detail/>}/>
-          <Route path="/form" element={<Form platforms={platforms} genres={genres}/>}/>
+          <Route path="/form" element={<Form 
+          // platforms={platforms} genres={genres}
+          />}
+          />
         </Routes>
       </div>
     </div>
