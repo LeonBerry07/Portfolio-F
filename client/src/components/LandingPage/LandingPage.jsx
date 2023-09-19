@@ -200,7 +200,7 @@ class LandingPage extends React.Component{
 
             <div className="box">
                 <button className='box'>
-                <RouterLink to='' target="_blank">Videogames</RouterLink>
+                <RouterLink to='' target="_blank">Videogames (En construcción)</RouterLink>
                 </button>
             </div>
 
